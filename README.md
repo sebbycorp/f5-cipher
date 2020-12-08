@@ -18,5 +18,7 @@ create ltm cipher group custom-secure-group allow add { custom-secure-rule }
 
 
 
+nmap -Pn -sT fqdn.com -p 443 --script ssl-enum-ciphers
+
 F5 How to article : https://support.f5.com/csp/article/K10866411
 
